@@ -1,61 +1,81 @@
-*{
+* {
     margin: 0 auto;
 }
-.navbar{
+
+.navbar {
     position: fixed;
     height: 150px;
+    width: 90%;
+    right: 0;
     background-color: white;
 }
+.aside{
+    position: fixed;
+    min-height: 78vh;
+    margin-top: 155px;
+}
+.aside div{
+    height: 39vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-.firstpart{
+.firstpart {
     display: flex;
     align-items: left;
     justify-content: space-between;
 }
 
-.search-box{
+.search-box {
     display: flex;
     margin-left: 40%;
     width: 400px;
 }
-.search-box button{
+
+.search-box button {
     border-left: none;
     cursor: pointer;
 }
-.search-box input{
+
+.search-box input {
     border-right: none;
     width: 100%;
 }
 
-.iconbox{
+.iconbox {
     width: 150px;
     display: flex;
     justify-content: space-between;
 }
 
-.iconbox button{
+.iconbox button {
     background-color: transparent;
     border: none;
     height: 40px;
     width: 40px;
     cursor: pointer;
 }
-.iconbox button img{
+
+.iconbox button img {
     height: 40px;
     width: 40px;
 }
-.secondpart{
+
+.secondpart {
     width: auto;
     height: 60px;
     overflow-x: scroll;
-    overflow-y:visible ;
+    overflow-y: visible;
 }
-.secondpart button{
+
+.secondpart button {
     width: 130px;
     padding: .5rem;
     border-radius: 17px;
 }
-.container{
+
+.container {
     width: 80%;
     min-height: 100vh;
     display: flex;
@@ -66,7 +86,22 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.container img{
+
+.container img {
     width: 150px;
     height: 150px;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 9rem;
+    background-color: #e5e5e5;
+    justify-content: center;
+}
+ /* footer p {
+    margin-bottom: 3rem;
+}
+.firstp{
+    margin-top: 3rem;
+} */
